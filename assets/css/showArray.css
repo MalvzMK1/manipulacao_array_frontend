@@ -1,0 +1,31 @@
+.numbers-container {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+
+h2 {
+    width: 150px;
+    text-align: end;
+}
+
+.number-item {
+    background: rgba( 255, 255, 255, 0.15 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 7px );
+    -webkit-backdrop-filter: blur( 7px );
+    border-radius: 10px;
+    min-width: 75px;
+    height: 75px;
+    color: #ebebeb;
+    font-size: 2rem;
+    display: grid;
+    place-content: center;
+    transition: 400ms ease all;
+    padding: 10px;
+}
+
+.number-item:hover {
+    background: rgba(255, 255, 255, 0.60);
+    box-shadow: 0 8px 32px 0 rgba(214, 214, 214, 0.57);
+}

@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(purple, rgb(28, 228, 195));
+    font-family: 'Lato', sans-serif;
+}
+
+main {
+    height: fit-content;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 33px;
+    padding: 50px 0;
+    overflow: hidden;
+}
